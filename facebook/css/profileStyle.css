@@ -1,0 +1,145 @@
+.wrapper-content .profile{ 
+    width: 180px;
+    
+}
+
+.wrapper-content .profile .avatar{ 
+       display: flex;
+       align-items: center;
+      
+}
+
+.wrapper-content .profile .avatar img{ 
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.wrapper-content .profile .avatar span{ 
+    font-size: 13px;
+} 
+
+.wrapper-content .profile .feeds {
+    margin-top: 10px;
+}
+
+.wrapper-content .profile .feeds a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: #1D2129;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+
+
+.wrapper-content .profile .feeds a .feed{ 
+    background-image: url('/images2/menus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -1346px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.wrapper-content .profile .feeds a .messenger{ 
+    background-image: url('/images2/menus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -254px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.wrapper-content .profile .feeds a .watch{ 
+    background-image: url('/images2/menus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -2018px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+.wrapper-content .profile .feeds a .marketplace{ 
+    background-image: url('/images2/menus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -211px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+.wrapper-content .profile .tituloExplorar{
+    font-size: 13px;
+    font-weight: bolder;
+    color: #828282;
+    margin-top: 15px;
+}
+
+
+.wrapper-content .profile .explorar{ 
+    margin-top: 5px;
+    
+}
+
+
+.wrapper-content .profile .explorar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: #1D2129;
+    padding: 5px 0;
+}
+
+
+
+.wrapper-content .profile .explorar a .covid{ 
+    background-image: url('/images2/menus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -1661px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+.wrapper-content .profile .explorar a .eventos{ 
+    background-image: url('/images2/menus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -884px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.wrapper-content .profile .explorar a .paginas{ 
+    background-image: url('/images2/menus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -296px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+.wrapper-content .profile .explorar a .grupos{ 
+    background-image: url('/images2/menus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -191px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}

@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, button,textarea{
+    outline: 0;
+}
+
+body{
+    background: #e6ecf0;
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background: #4267b2;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #29487d;
+}
+
+
+header .headerLeft{
+    display: flex;
+}
+
+header .headerLeft .logo{  
+    height: 24px;
+    width: 24px;
+    border: 0;
+    border-radius: 8%;
+    background: #fff;
+    margin: 0 10px;
+}
+
+/*
+header .headerLeft span{
+    height: 24px;
+    width: 24px;
+    border-radius: 8%;
+    background: #fff;
+    margin: 0 12px;
+    text-align: end;
+    
+    font: 14px Helvetica, Arial, sans-serif;
+}*/
+
+header .headerLeft input{ 
+    background: #F5F8FA ;
+    height: 23px;
+    width: 393px;
+    padding: 0 10px 0 15px;
+    color: #1c1e21;
+    font-family: inherit;
+    border: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+header .headerLeft button{ 
+    height: 23px;
+    width: 46px;
+    border: 0;
+    font-weight: bolder;
+    font-size: 14px;
+    color: black;
+
+}
+
+header .headerLeft .pesquisar{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+header .headerRight .menu .avatar{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+header .headerRight{
+    display: flex;
+    align-items: center;
+}
+
+
+header .headerRight .menu a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+header .headerRight .menu{ 
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    position: relative;
+   
+}
+
+
+header .headerRight .menu span{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+header .headerRight .menu::before{
+    content: '';
+    height: 18px;
+    top: 12px;
+    width: 1px;
+    left: 2px;
+    position: absolute;
+    background: rgba(0, 0, 0, .1); 
+}
+
+
+header .headerRight .menu .amizade{ 
+    background-image: url('/images2/imagens.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -338px;
+    height: 24px;
+    width: 24px;
+}
+
+
+header .headerRight .menu .chat{ 
+    background-image: url('/images2/imagens.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -588px;
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+header .headerRight .menu .not{ 
+    background-image: url('/images2/imagens.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -612px;
+    height: 24px;
+    width: 24px;
+}
+
+header .headerRight .menu .info{ 
+    background-image: url('/images2/imagens.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -788px;
+    height: 24px;
+    width: 24px;
+}
+
+.wrapper-content{
+   display: flex;
+   margin-top: 10px;
+}
